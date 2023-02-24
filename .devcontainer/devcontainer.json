@@ -6,8 +6,8 @@
 		// Sets the run context to one level up instead of the .devcontainer folder.
 		"context": "..",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
-		"dockerfile": "../dockerfile"
-	}
+		"dockerfile": "../dockerfile",
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -16,7 +16,7 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "cat /etc/os-release",
+	// "postCreateCommand": "pre-commit install --install-hooks"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
